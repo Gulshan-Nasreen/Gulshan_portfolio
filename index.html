@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulshan Nasreen - Professional Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        nav {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #2575fc;
+            margin: 0 20px;
+            text-decoration: none;
+            padding: 15px 0;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #6a11cb;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #2575fc;
+            border-left: 5px solid #6a11cb;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        .experience, .education, .skills {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li::before {
+            content: "\2022";
+            color: #6a11cb;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #2575fc, #6a11cb);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        .whatsapp-icon {
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 18px;
+            color: #25D366;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                padding: 10px 0;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gulshan Nasreen</h1>
+        <p>Experienced Administrative Officer & IT Administrator</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Experienced administrative officer and IT administrator with skills in software management, marketing, and web development (HTML, CSS, JavaScript). Focused on optimizing workflows and improving operational efficiency with strong problem-solving and communication skills.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>IT Administrator - Govt College University, Layyah Campus</h3>
+                <p><strong>Jan 2023 - Present</strong></p>
+                <p>Orchestrated the maintenance and optimization of IT systems, managed IT assets, and aligned technological advancements with strategic goals.</p>
+            </div>
+
+            <div class="experience">
+                <h3>Administrative Officer - Afro-Asian Institute, Lahore</h3>
+                <p><strong>Aug 2022 - Dec 2022</strong></p>
+                <p>Delivered exceptional administrative support, streamlined financial operations, and ensured data integrity in accounting activities.</p>
+            </div>
+
+            <div class="experience">
+                <h3>Account Officer - Afro-Asian Institute, Lahore</h3>
+                <p><strong>Feb 2020 - Apr 2022</strong></p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Marketing</li>
+                <li>IT Administration</li>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Problem Solving</li>
+                <li>Software Tools</li>
+                <li>Copywriting</li>
+                <li>Financial Management</li>
+                <li>Data Research</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education">
+                <p><strong>M.Sc. in Computer Science</strong> - Govt College University, Faisalabad (Sep 2018)</p>
+                <p><strong>Bachelor of Education</strong> - Govt College University, Faisalabad (Feb 2015)</p>
+                <p><strong>Bachelor of Commerce</strong> - University of Sargodha, Sargodha (Sep 2012)</p>
+                <p><strong>Diploma in Commerce</strong> - Punjab Board of Technical Education, Lahore (Aug 2010)</p>
+                <p><strong>Matriculation (Science)</strong> - BISE Dera Ghazi Khan (Aug 2008)</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:star66558@gmail.com">star66558@gmail.com</a></p>
+            <p>Phone: +92 304 7923657 <span class="whatsapp-icon"> WhatsApp</span></p>
+            <p>Location: Gulberg III, Lahore</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Gulshan Nasreen. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
